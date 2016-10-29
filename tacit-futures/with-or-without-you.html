@@ -84,7 +84,7 @@ function renderStory(story_idx){
 	}
 
 	links = $.map(story_node.links, function(link) {
-		return "<li onclick=\"renderStory(" + link.destination_story + ")\">" + link.button_text + "</li>";
+		return "<li onclick=\"renderStory(\'" + link.destination_story + "\')\">" + link.button_text + "</li>";
 	}).join('');
 	$('.options').html(links);
 }

@@ -41,11 +41,11 @@
       },
       {
         "button_text": "Use a mind uploading machine",
-        "destination_story": "12"
+        "destination_story": "22"
       },
       {
         "button_text": "Use a body-empowering machine",
-        "destination_story": "13"
+        "destination_story": "33"
       },
       {
         "button_text": "Don’t use iPhone infinity",
@@ -193,7 +193,7 @@
     ]
   },
   {
-    "id": "12",
+    "id": "22",
     "story": "In the virtual world, an avatar made from all of your data was born, and you are now able to live forever. This is a virtual space, so your life span is not limited anymore. Also, because you don’t have a body, you can even fuse yourself with another person and become a greater existence; or you can split yourself in pieces and become a world of your own.",
     "links": [
       {
@@ -213,14 +213,9 @@
     ]
   },
   {
-    "id": "13",
+    "id": "33",
     "story": "You can abandon your body and input all of your data into a robotics. This way you can travel the universe. However, there are many unknown things in the outerspace that can not be percieved from the earth’s data. You become lost and lonely in the vast universe. You can not even die forever until you get hit by a meteorite. Is this a dystopia?",
-    "links": [
-      {
-        "button_text": "Wake up",
-        "destination_story": "0"
-      }
-    ]
+    "links": []
   },
   {
     "id": "14",
