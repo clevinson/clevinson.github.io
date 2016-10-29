@@ -1,4 +1,10 @@
-[ { "id": "1",
+[
+  {
+    "id": "0",
+    "story": "Which is Utopia or Dystopia?",
+    "links": []
+  },
+  { "id": "1",
     "story": "You are here today. You are eating a pretzel, looking at little cards in pastel colors, talking about technology and the future and you go through a hypnosis session. You have to decide between:",
     "links": [
       {
@@ -128,25 +134,17 @@
     "story": "it is Sad thing, disease may recover and may not recover.",
     "links": [
       {
-        "button_text": "Non",
-        "destination_story": "11A"
-      },
-      {
-        "button_text": "Non",
+        "button_text": "Proceed",
         "destination_story": "11A"
       }
     ]
   },
   {
     "id": "10A",
-    "story": "Nothing happened. it is lucky thing. And your judgment that don’t give a information to Apple was correct.",
+    "story": "Nothing happened. It is a lucky thing. And your judgment to not give information to Apple was correct.",
     "links": [
       {
-        "button_text": "Non",
-        "destination_story": "11A"
-      },
-      {
-        "button_text": "Non",
+        "button_text": "Proceed",
         "destination_story": "11A"
       }
     ]
@@ -175,12 +173,8 @@
     "story": "You have to receive natural death. Time of death is God only Knows……",
     "links": [
       {
-        "button_text": "Non",
-        "destination_story": "1"
-      },
-      {
-        "button_text": "Non",
-        "destination_story": "2"
+        "button_text": "Proceed",
+        "destination_story": "0"
       }
     ]
   },
@@ -213,12 +207,8 @@
     "story": "Nothing happened. But A great deal of valuable data was handed to Apple.",
     "links": [
       {
-        "button_text": "Non",
-        "destination_story": "15"
-      },
-      {
-        "button_text": "Non",
-        "destination_story": "15"
+        "button_text": "Proceed",
+        "destination_story": "0"
       }
     ]
   },
@@ -234,15 +224,11 @@
   },
   {
     "id": "14",
-    "story": "When disease is found early, human would get long life. You may not die any more.",
+    "story": "When disease is found early, you may get a long life. In fact, you may not die at all.",
     "links": [
       {
-        "button_text": "Non",
-        "destination_story": "15"
-      },
-      {
-        "button_text": "Non",
-        "destination_story": "15"
+        "button_text": "Proceed",
+        "destination_story": "0"
       }
     ]
   },
@@ -251,12 +237,8 @@
     "story": "We must decide my end of life by myself. It is ultimate decision and maybe final margins of freedom.",
     "links": [
       {
-        "button_text": "Non",
-        "destination_story": "12"
-      },
-      {
-        "button_text": "Non",
-        "destination_story": "13"
+        "button_text": "Proceed",
+        "destination_story": "0"
       }
     ]
   }
