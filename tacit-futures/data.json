@@ -1,7 +1,7 @@
 [
   {
     "id": "0",
-    "story": "Which is Utopia or Dystopia?",
+    "story": "Which is utopia or dystopia?",
     "links": []
   },
   { "id": "1",
@@ -214,8 +214,13 @@
   },
   {
     "id": "33",
-    "story": "You can abandon your body and input all of your data into a robotics. This way you can travel the universe. However, there are many unknown things in the outerspace that can not be percieved from the earth’s data. You become lost and lonely in the vast universe. You can not even die forever until you get hit by a meteorite. Is this a dystopia?",
-    "links": []
+    "story": "You can abandon your body and input all of your data into a robotics. This way you can travel the universe. However, there are many unknown things in the outerspace that can not be percieved from the earth’s data. You become lost and lonely in the vast universe. You can not even die forever until you get hit by a meteorite.",
+    "links": [
+      {
+        "button_text": "Proceed",
+        "destination_story": "0"
+      }
+    ]
   },
   {
     "id": "14",
