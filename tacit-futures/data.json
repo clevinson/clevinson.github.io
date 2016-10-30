@@ -5,64 +5,64 @@
     "links": []
   },
   { "id": "1",
-    "story": "You are here today. You are eating a pretzel, looking at little cards in pastel colors, talking about technology and the future and you go through a hypnosis session. You have to decide between:",
+    "story": "You are here today. You are eating a pretzel, looking at little cards in pastel colors, talking about technology and the future. You go through a hypnosis session and you have to decide between:",
     "links": [
       {
-        "button_text": "Getting a coffee",
+        "button_text": "getting a coffee",
         "destination_story": "2"
       },
       {
-        "button_text": "Getting an ∞Phone from a stranger",
+        "button_text": "getting an ∞Phone from a stranger",
         "destination_story": "3"
       }
     ]
   },
   {
     "id": "2",
-    "story": "You are at a bar looking for some coffee. Everybody is on their laptops on the same website. You take a laptop and smash it on the ground. The internet shuts down and accidentally the computer was the main server holding everything together.",
+    "story": "You are at a bar looking for some coffee. Everybody is on their laptops on the same website. You take a laptop and smash it on the ground. The internet shuts down and accidentally the computer was controlling an integral piece of the internet's infrastructure holding everything together.",
     "links": [
       {
-        "button_text": "Go to the forest community",
+        "button_text": "go to the forest community",
         "destination_story": "5"
       }
     ]
   },
   {
     "id": "3",
-    "story": "Apple announced the invention of “iPhone Infinity”. This will be distributed around the world for free. In this iPhone, an AI (Hyper Siri) is installed that predicts the future from big data. However, you will have to provide all of your personal data to Apple. Would you choose to rely on this device?",
+    "story": "Apple announced the invention of “iPhone Infinity”. This will be distributed around the world for free. In this iPhone, an AI (Hyper Siri) is installed that predicts the future based on data collected from all over the world. To opt in, you will have to provide all of your personal data to Apple. Would you choose to rely on this device?",
     "links": [
       {
-        "button_text": "Use a biotechnology predicting device",
+        "button_text": "use a biotechnology predicting device",
         "destination_story": "11"
       },
       {
-        "button_text": "Use a prediction device",
+        "button_text": "use a prediction device",
         "destination_story": "6A"
       },
       {
-        "button_text": "Use a mind uploading machine",
+        "button_text": "use a mind uploading machine",
         "destination_story": "22"
       },
       {
-        "button_text": "Use a body-empowering machine",
+        "button_text": "use a body-empowering machine",
         "destination_story": "33"
       },
       {
-        "button_text": "Don’t use iPhone infinity",
+        "button_text": "don’t use iPhone infinity",
         "destination_story": "5"
       }
     ]
   },
   {
     "id": "5",
-    "story": "You leave everything behind and you walk for days and days and you become a professional hiker. You look at the stars for orientation. You join a  forest community. There are tree houses, huts, collective yoga and everybody eats what they find in nature.  Every 15 minutes you have to hug somebody.",
+    "story": "You leave everything behind and you walk for days and days and become a professional hiker. You look at the stars for orientation. You join a forest community. There are tree houses, huts, collective yoga and everybody eats what they find in nature. Every 15 minutes you have to hug somebody.",
     "links": [
       {
-        "button_text": "You love it here",
+        "button_text": "you love it here",
         "destination_story": "8A"
       },
       {
-        "button_text": "You want to be lazy with the help of technology",
+        "button_text": "you want to be lazy with the help of technology",
         "destination_story": "7"
       }
     ]
@@ -72,11 +72,11 @@
     "story": "Your life has been improved. You are extremely healthy. However, now it is illegal to let the machine predict humans' behaviors. You can no longer continue using the iPhone infinity's function. Will you still use this prediction device?",
     "links": [
       {
-        "button_text": "Yes",
+        "button_text": "yes",
         "destination_story": "0"
       },
       {
-        "button_text": "No",
+        "button_text": "no",
         "destination_story": "5C"
       }
     ]
@@ -88,63 +88,63 @@
   },
   {
     "id": "6",
-    "story": "Iris decides for you based on probabilites what is best. You basically don't take any decision anymore. At the Berliner Gazette conference, you attend a workshop where you learn how to make decisions yourself. The first exercise is breakfast. Decide over coffee or tea. You cry cause you can't decide. Some people try to sneak in phones to help them. Everybody encourages you that you can do it.",
+    "story": "Hyper Siri decides for you based on probabilities what is best. You basically don't take any decisions anymore. At the Berliner Gazette conference, you attend a workshop where you learn how to make decisions yourself. The first exercise is breakfast. Decide between coffee or tea. You cry because you can't decide. Some people try to sneak in phones to help them. Everybody encourages you that you can do it.",
     "links": [
       {
-        "button_text": "You choose what you like",
+        "button_text": "you choose what you like",
         "destination_story": "5"
       },
       {
-        "button_text": "You need help",
+        "button_text": "you need help",
         "destination_story": "4B"
       }
     ]
   },
   {
     "id": "6A",
-    "story": "iPhone infinity gets upgraded and now you can implant this device in your body. If you decide to implant, the device will predict the perfect lifestyle for you based on your bio information. All data will tell you which action to take and what to eat next to improve your health. Will you implant the device?",
+    "story": "iPhone infinity gets upgraded and now you can implant this device in your body. If you decide to implant it, the device will predict the perfect lifestyle for you based on your bio information. All data will tell you which action to take and what to eat next to improve your health. Will you implant the device?",
     "links": [
       {
-        "button_text": "Yes",
+        "button_text": "yes",
         "destination_story": "5B"
       },
       {
-        "button_text": "No",
+        "button_text": "no",
         "destination_story": "5C"
       }
     ]
   },
   {
     "id": "7",
-    "story": "You are tired to do so much work based on human abilities. You want to use technology to simplify life. You want to use artificial light for the home or watch a movie. Or buy a new dress and not make one. You leave on a quest in search of magnets. You meet an alternative group, which is using human neural interface to build internet. It envolves holding hands etc. Some people are routers.",
+    "story": "You are tired to do so much work based on human abilities. You want to use technology to simplify life. You want to use artificial light for the home or watch a movie. Or buy a new dress and not make one. You leave on a quest in search of magnets. You meet an alternative group, which is using human neural interface to build internet. It envolves holding hands, etc. Some people are routers.",
     "links": [
       {
-        "button_text": "Everything becomes connected",
+        "button_text": "everything becomes connected",
         "destination_story": "10"
       }
     ]
   },
   {
     "id": "8A",
-    "story": "Simplicity - everything remains natural and close to spirituality and nature",
+    "story": "Simplicity - everything remains natural and close to spirituality and nature.",
     "links": []
   },
   {
     "id": "9A",
-    "story": "it is Sad thing, disease may recover and may not recover.",
+    "story": "it is a sad thing, your disease may recover or may not recover.",
     "links": [
       {
-        "button_text": "Proceed",
+        "button_text": "proceed",
         "destination_story": "11A"
       }
     ]
   },
   {
     "id": "10A",
-    "story": "Nothing happened. It is a lucky thing. And your judgment to not give information to Apple was correct.",
+    "story": "Nothing happened. It is a lucky thing. Your judgment to not give information to Apple appears to have been correct.",
     "links": [
       {
-        "button_text": "Proceed",
+        "button_text": "proceed",
         "destination_story": "11A"
       }
     ]
@@ -156,38 +156,38 @@
   },
   {
     "id": "11",
-    "story": "Industries of Biotechnology(Predictio of lifespan)",
+    "story": "Industries of Biotechnology (prediction of lifespan)",
     "links": [
       {
-        "button_text": "Use",
+        "button_text": "use",
         "destination_story": "12"
       },
       {
-        "button_text": "Not use",
+        "button_text": "not use",
         "destination_story": "13"
       }
     ]
   },
   {
     "id": "11A",
-    "story": "You have to receive natural death. Time of death is God only Knows……",
+    "story": "You will receive a natural death. The time until death is… God only knows……",
     "links": [
       {
-        "button_text": "Proceed",
+        "button_text": "proceed",
         "destination_story": "0"
       }
     ]
   },
   {
     "id": "12",
-    "story": "Serious disease may be found in your health care data if you choose to send it to apple every day. However, if you opt in, you be subject to targeted advertising from various companies related to Health care.",
+    "story": "Serious disease may be found in your health care data if you choose to send it to Apple every day. However, if you opt in you will be subject to targeted advertising from various companies related to health care.",
     "links": [
       {
-        "button_text": "Opt-in",
+        "button_text": "opt-in",
         "destination_story": "14"
       },
       {
-        "button_text": "Do not opt-in",
+        "button_text": "do not opt-in",
         "destination_story": "13"
       }
     ]
@@ -197,7 +197,7 @@
     "story": "In the virtual world, an avatar made from all of your data was born, and you are now able to live forever. This is a virtual space, so your life span is not limited anymore. Also, because you don’t have a body, you can even fuse yourself with another person and become a greater existence; or you can split yourself in pieces and become a world of your own.",
     "links": [
       {
-        "button_text": "ATOPIA",
+        "button_text": "atopia",
         "destination_story": "10"
       }
     ]
@@ -207,7 +207,7 @@
     "story": "Nothing happened. But A great deal of valuable data was handed to Apple.",
     "links": [
       {
-        "button_text": "Proceed",
+        "button_text": "proceed",
         "destination_story": "0"
       }
     ]
@@ -217,7 +217,7 @@
     "story": "You can abandon your body and input all of your data into a robotics. This way you can travel the universe. However, there are many unknown things in the outerspace that can not be percieved from the earth’s data. You become lost and lonely in the vast universe. You can not even die forever until you get hit by a meteorite.",
     "links": [
       {
-        "button_text": "Proceed",
+        "button_text": "proceed",
         "destination_story": "0"
       }
     ]
@@ -227,8 +227,8 @@
     "story": "When disease is found early, you may get a long life. In fact, you may not die at all.",
     "links": [
       {
-        "button_text": "Proceed",
-        "destination_story": "0"
+        "button_text": "proceed",
+        "destination_story": "15"
       }
     ]
   },
@@ -237,7 +237,7 @@
     "story": "We must decide my end of life by myself. It is ultimate decision and maybe final margins of freedom.",
     "links": [
       {
-        "button_text": "Proceed",
+        "button_text": "proceed",
         "destination_story": "0"
       }
     ]

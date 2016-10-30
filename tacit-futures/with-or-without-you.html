@@ -15,6 +15,7 @@ body, pre {
 
 body {
   border: 1px solid #ccc;
+  margin: 0;
 }
 h2 { /* 24px / 26px + 16px / 16px */
   font-size: 1.5em;
@@ -35,29 +36,45 @@ p { /* 16px / 22px + 12px / 12px */
 	display: block;
 }
 
-.story {
+.lang-switch {
+  top: 0px;
+  margin: 0.75em;
+  right: 0px;
+  position: absolute;
+  display: inline-block;
 }
 
-.options li:hover {
+.lang-switch li {
+  height: 1.5em;
+  line-height: 1.75em;
+  padding: 0 0.5em;
+  margin: 0;
+}
+
+
+li:hover {
   cursor: pointer;
 }
 
-.options li {
+li {
     font-size: 0.9em;
     border: 1px solid black;
     padding: .3em 1em;
     margin: .3em;
     text-decoration: none;
-    width: 180px;
     display: inline-block;
+    list-style-type: none;
 }
 
 .options {
   padding: 0;
   margin: 2em;
-  list-style-type: none;
   text-align: center;
   display: block;
+}
+
+.options li {
+    width: 180px;
 }
 </style>
 
@@ -66,19 +83,44 @@ p { /* 16px / 22px + 12px / 12px */
 <script type='text/javascript'>
 
 var stories;
+var stories_jp;
 
-$.getJSON("data.json", function(data) {
-	stories = data
+var LANGUAGE = 'en';
+var CURRENT_STORY = 1;
 
-	renderStory(1);
+$(function() {
 
+  $.getJSON("data_jp.json", function(data) {
+    stories_jp = data;
+  });
+
+  $.getJSON("data.json", function(data) {
+  	stories = data;
+  	renderStory(1);
+  });
+
+  $('.english').click(function() {
+    LANGUAGE = 'en';
+    renderStory(CURRENT_STORY);
+  });
+
+  $('.japanese').click(function() {
+    LANGUAGE = 'jp';
+    renderStory(CURRENT_STORY);
+  });
 });
+
 
 var links;
 
 function renderStory(story_idx){
-
-	var story_node = $.grep(stories, function(obj, idx) {return obj.id == story_idx})[0];
+  CURRENT_STORY = story_idx;
+  if(LANGUAGE == 'en') {
+    story_tree = stories;
+  } else {
+    story_tree = stories_jp;
+  }
+	var story_node = $.grep(story_tree, function(obj, idx) {return obj.id == story_idx})[0];
 
 	$('.story p').html(story_node.story);
 	if(story_node.media != null) {
@@ -87,14 +129,22 @@ function renderStory(story_idx){
 		$('.video').html('');
 	}
 
+
+  /* 日本語 */
+
+
 	links = $.map(story_node.links, function(link) {
 		return "<li onclick=\"renderStory(\'" + link.destination_story + "\')\">" + link.button_text + "</li>";
 	}).join('');
 	$('.options').html(links);
 }
 
+
 </script>
 <div class="container">
+  <ul class="lang-switch">
+    <li class="english" >en</li><li class="japanese" >日本語</li>
+  </ul>
 <div class="story"><p></p></div>
 <div class="video"></div>
 
