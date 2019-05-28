@@ -1,10 +1,43 @@
+<html>
 <!DOCTYPE html>
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8"/>
+  <meta name="description" content="Hi ~~ welcome to my website :)"/>
+  <meta name="keywords" content="analyst, developer, researcher, musician, kohwi, corlock, cory levinson"/>
   <title>kohwi.info</title>
+  <script>
+
+
+    function toggleSsbId() {
+      let ssbId = document.getElementById("ssbId");
+
+      if (ssbId == null) {
+        let ssbLink = document.getElementById("ssbHref");
+
+        let ssbId = document.createElement("span");
+
+        ssbId.id = "ssbId";
+        ssbId.innerHTML = " => @sHFNLAao6phQ5AN17ecYNUbszDa4Qf6DhyQsjtQfdmY=.ed25519 `aka` @corlock";
+
+        ssbLink.parentNode.insertBefore(ssbId, ssbLink.nextSibling);
+
+        ssbIdShown = true;
+      } else {
+        ssbId.parentNode.removeChild(ssbId);
+      }
+
+    }
+  </script>
 </head>
 
 <style>
+
+html {
+
+  font-size: 13px;
+}
 
 .emoji {
   font-size: 1.6em;
@@ -24,32 +57,106 @@ pre {
   white-space: pre-wrap;
 }
 
-</style>
+.monadic-img {
+  background: url("https://res.cloudinary.com/juliendonck/image/upload/v1549554598/monadic-icon_myhdjk.svg");
+}
 
+.ssb-img {
+  background: url("https://d33wubrfki0l68.cloudfront.net/faeaaf0db78d772ebb7bc1bfa6af8f1b8bcbc624/4c89b/assets/hermies.png") no-repeat center;
+}
+
+.img-logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1.4em;
+  width: 1.7em;
+  height: 2.2em;
+  display: inline-block;
+  margin-bottom: -0.9em;
+}
+
+a.img-logo-text {
+  line-height: 2em;
+}
+
+.cat {
+  font-weight: bold;
+}
+
+.cat:hover {
+  font-style: italic;
+}
+
+.analyst {
+  color: #005f1b;
+}
+
+.researcher {
+  color: #8d87a2;
+}
+
+.dev {
+  color: #bf7958;
+}
+
+.musician {
+  color: #64468d;
+}
+
+.data {
+  color: #e1534a;
+}
+
+.social {
+  color: #b6d53c;
+}
+
+.spatial {
+  color: #3fc778;
+}
+
+.sonic {
+  color: #243f72;
+}
+
+.container {
+
+  width: 300px;
+  height: 200px;
+
+}
+
+</style>
 <body>
 <pre>
 
     <span class='emoji'>&#9996;</span> kohwi.info
 
 
-  I'm a  {analyst, artist, developer, musician}    with an interest in
-      {data, social, spatial, sonic}      environments and infrastructures.
-
-
-  find me on[]:
-    <span class='emoji'>&#x1F426;</span> <a href="https://twitter.com/kohwi">twitter</a>
-    <span class='emoji'>&#x1F3B6;</span> <a href="https://soundcloud.com/kohwi">soundcloud</a>
-    <span class='arena'>**</span> <a href="https://are.na/cory-levinson">are.na</a>
-    <span class='emoji'>&#x270D;</span> <a href="mail.png">mail</a>
-    <span class='emoji'>&#x1F511;</span> <a href="key.asc">pgp</a>
+  I'm a  {<span class="analyst cat">analyst</span>, <span class="researcher cat">researcher</span>, <span class="dev cat">developer</span>, <span class="musician cat">musician</span>}    with an interest in
+      {<span class="data cat">data</span>, <span class="social cat">social</span>, <span class="spatial cat">spatial</span>, <span class="sonic cat">sonic</span>}   environments and infrastructures.
 
 
   Current entanglements[]:
+    <span class='img-logo monadic-img'></span> <a class="img-logo-text" href="http://monadic.xyz">Monadic</a>
+    <span class='img-logo ssb-img'></span> <a class="img-logo-text" href="http://scuttlebutt.nz">Scuttlebutt</a>
     <span class='emoji'>&#x1F3D7;</span> <a href="http://p-a-n.org">PAN</a>
     <span class='emoji'>&#x1F33F;</span> <a href="http://waysinnerpass.com">ways inner pass</a>
 
   Previously[]:
     <span class='emoji'>&#x1F4D6;</span> <a href="https://thenewnormal.strelka.com">strelka institute / the new normal</a> (Feb&nbsp;2017&nbsp;-&nbsp;July&nbsp;2017)
     <span class='emoji'>&#x1F4BB;</span> <a href="http://soundcloud.com">soundcloud</a> (Jun&nbsp;2011&nbsp;-&nbsp;Sept&nbsp;2017)
+
+--
+
+  find me on[]:
+    <span class='img-logo ssb-img'></span> <a id="ssbHref" class="img-logo-text" onClick="toggleSsbId();" href="#">ssb</a>
+    <span class='emoji'>&#x1F426;</span> <a href="https://twitter.com/kohwi">twitter</a>
+    <span class='emoji'>&#x1F3B6;</span> <a href="https://soundcloud.com/kohwi">soundcloud</a>
+    <span class='emoji'>&#x270D;</span> <a href="mail.png">mail</a> / <span class='emoji'>&#x1F511;</span> <a href="key.asc">pgp</a>
+
+
 </pre>
 </body>
+
+</html>
